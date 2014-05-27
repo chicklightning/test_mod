@@ -1,4 +1,4 @@
-test_mod
+Test Modding
 ========
 
 A git repository for my adventures in Minecraft modding. To be used for modding examples and as a general learning template.
