@@ -11,7 +11,7 @@ public class CustomItem extends Item {
 
 	public CustomItem(){
 	    this.setUnlocalizedName("CustomItem");
-	    this.setCreativeTab(CreativeTabsManager.tabBlock);
+	    this.setCreativeTab(CreativeTabsManager.tabItem);
 	    this.setMaxStackSize(64);
 	    this.setMaxDamage(3);
 	    this.setTextureName(StringLibrary.MODID + ":CustomItemTexture");

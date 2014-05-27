@@ -3,8 +3,8 @@ package com.camp.creativetabs;
 import net.minecraft.creativetab.CreativeTabs;
 
 public class CreativeTabsManager {
-
-	public static void mainRegistry(){
+ 
+    public static void mainRegistry(){
         initializeTabs();
     }
  
@@ -15,4 +15,5 @@ public class CreativeTabsManager {
         tabItem = new ItemTab("CustomItemTab");
         tabBlock = new BlockTab("CustomBlockTab");
     }
+ 
 }

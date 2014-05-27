@@ -2,6 +2,7 @@ package com.camp.creativetabs;
 
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
+import net.minecraft.init.Items;
 
 import com.camp.item.ItemManager;
 
