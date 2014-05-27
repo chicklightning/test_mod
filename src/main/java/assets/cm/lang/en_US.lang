@@ -1,7 +1,8 @@
 item.CustomItem.name=Pizza
+item.CustomPickaxe.name=Jade Pickaxe
 tile.CustomBlock.name=StarBlocks
 tile.MultiBlock.name=Die
 entity.CustomMob.name=Guilain
 entity.CustomEntityPassive.name=Passive Mob
-itemGroup.CustomItemTab.name=Custom Items
-itemGroup.CustomBlockTab.name=Custom Blocks
+itemGroup.CustomItemTab=Custom Items
+itemGroup.CustomBlockTab=Custom Blocks

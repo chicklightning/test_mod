@@ -1,5 +1,6 @@
 package com.camp.item;
 
+import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 
 import com.camp.creativetabs.CreativeTabsManager;
@@ -10,7 +11,7 @@ public class CustomItem extends Item {
 
 	public CustomItem(){
 	    this.setUnlocalizedName("CustomItem");
-	    this.setCreativeTab(CreativeTabsManager.tabItem);
+	    this.setCreativeTab(CreativeTabsManager.tabBlock);
 	    this.setMaxStackSize(64);
 	    this.setMaxDamage(3);
 	    this.setTextureName(StringLibrary.MODID + ":CustomItemTexture");

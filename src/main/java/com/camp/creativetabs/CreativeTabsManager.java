@@ -12,7 +12,7 @@ public class CreativeTabsManager {
     public static CreativeTabs tabBlock;
  
     public static void initializeTabs(){
-        tabItem = new ItemTab(6, "CustomItemTab");
-        tabBlock = new BlockTab(7, "CustomBlockTab");
+        tabItem = new ItemTab("CustomItemTab");
+        tabBlock = new BlockTab("CustomBlockTab");
     }
 }

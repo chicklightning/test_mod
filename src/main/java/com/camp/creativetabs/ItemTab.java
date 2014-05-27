@@ -7,8 +7,8 @@ import com.camp.item.ItemManager;
 
 public class ItemTab extends CreativeTabs {
 
-	public ItemTab(int par1, String par2Str) {
-		super(par1, par2Str);
+	public ItemTab(String label) {
+		super(label);
 	}
 
 	@Override

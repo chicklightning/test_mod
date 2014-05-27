@@ -7,8 +7,8 @@ import com.camp.block.BlockManager;
 
 public class BlockTab extends CreativeTabs {
 
-	public BlockTab(int par1, String par2Str) {
-		super(par1, par2Str);
+	public BlockTab(String label) {
+		super(label);
 	}
 
 	@Override
