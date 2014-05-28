@@ -18,6 +18,7 @@ public class ItemManager {
     
     public static Item customItem;
     public static Item customPickaxe;
+    public static Item customFood;
     
     //level of material the tool can harvest, between 0 and 3 (number greater than 3 is three, less than 0 is 0)
     //max uses: wood is 59, stone 131, iron 250, diamond 1561, gold 32
@@ -29,11 +30,13 @@ public class ItemManager {
     public static void initializeItem() {
     	customItem = new CustomItem();
     	customPickaxe = new CustomPickaxe(jade).setUnlocalizedName("CustomPickaxe").setCreativeTab(CreativeTabs.tabTools).setTextureName(StringLibrary.MODID + ":jade_pickaxe");
+    	customFood = new CustomFood(8, 0.6F, false).setUnlocalizedName("DiamondApple").setCreativeTab(CreativeTabs.tabFood).setTextureName(StringLibrary.MODID + ":apple_diamond");
     }
  
     public static void registerItem() {
     	GameRegistry.registerItem(customItem, customItem.getUnlocalizedName());
     	GameRegistry.registerItem(customPickaxe, customPickaxe.getUnlocalizedName());
+    	GameRegistry.registerItem(customFood, customFood.getUnlocalizedName());
     }
  
 }

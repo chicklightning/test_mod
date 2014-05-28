@@ -14,7 +14,7 @@ public class RecipeManager {
 		  
 		 
 	public static void addCraftingRecipes() {
-		//guess that this shapeless recipe (one where order doesn't matter) does this shit
+		//guess that this shapeless recipe (one where order doesn't matter) does this crap
 		//creates a new ItemStack (versus an Item) from one block of dirt ugh
 		//takes an unlimited number of Object "items"
 		GameRegistry.addShapelessRecipe(new ItemStack(Items.diamond, 64), Blocks.dirt);
