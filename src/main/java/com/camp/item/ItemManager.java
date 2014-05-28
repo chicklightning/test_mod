@@ -3,6 +3,7 @@ package com.camp.item;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 import net.minecraft.item.Item.ToolMaterial;
+import net.minecraft.item.ItemFood;
 import net.minecraftforge.common.util.EnumHelper;
 
 import com.camp.lib.StringLibrary;
@@ -30,7 +31,7 @@ public class ItemManager {
     public static void initializeItem() {
     	customItem = new CustomItem();
     	customPickaxe = new CustomPickaxe(jade).setUnlocalizedName("CustomPickaxe").setCreativeTab(CreativeTabs.tabTools).setTextureName(StringLibrary.MODID + ":jade_pickaxe");
-    	customFood = new CustomFood(8, 0.6F, false).setUnlocalizedName("DiamondApple").setCreativeTab(CreativeTabs.tabFood).setTextureName(StringLibrary.MODID + ":apple_diamond");
+    	customFood = new CustomFood(8, 0.6F, false).setCreativeTab(CreativeTabs.tabFood).setUnlocalizedName("CustomFood").setTextureName(StringLibrary.MODID + ":apple_diamond");
     }
  
     public static void registerItem() {

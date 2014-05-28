@@ -6,3 +6,4 @@ entity.CustomMob.name=Guilain
 entity.CustomEntityPassive.name=Passive Mob
 itemGroup.CustomItemTab=Custom Items
 itemGroup.CustomBlockTab=Custom Blocks
+item.CustomFood.name=Diamond Apple
