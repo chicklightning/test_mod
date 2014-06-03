@@ -31,7 +31,11 @@ public class ItemManager {
     public static void initializeItem() {
     	customItem = new CustomItem();
     	customPickaxe = new CustomPickaxe(jade).setUnlocalizedName("CustomPickaxe").setCreativeTab(CreativeTabs.tabTools).setTextureName(StringLibrary.MODID + ":jade_pickaxe");
-    	customFood = new CustomFood(8, 0.6F, false).setCreativeTab(CreativeTabs.tabFood).setUnlocalizedName("CustomFood").setTextureName(StringLibrary.MODID + ":apple_diamond");
+    	
+        //for food: first arg: visible heal amount in half hunger bars
+        //second arg: saturation modifier; saturation level alculated by healamount * modifier * 2
+        //third arg: whether or not a wolf can be tamed using this food; examples: apple 4, 0.3F, false, and cooked porkchop: 8, 0.8F, true
+        customFood = new CustomFood(8, 0.6F, false).setCreativeTab(CreativeTabs.tabFood).setUnlocalizedName("CustomFood").setTextureName(StringLibrary.MODID + ":apple_diamond");
     }
  
     public static void registerItem() {

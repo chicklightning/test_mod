@@ -31,6 +31,7 @@ public class CustomFood extends ItemFood {
 			//first arg: gets specific potion ID, 2: duration in ticks of the potion (20 ticks/sec)
 			//third arg: potion amplifier, how strong the potion is
 			player.addPotionEffect(new PotionEffect(Potion.moveSpeed.getId(), 100, 2));
+			player.addPotionEffect(new PotionEffect(Potion.regeneration.getId(), 100, 2));
 		}
 	}
 	
